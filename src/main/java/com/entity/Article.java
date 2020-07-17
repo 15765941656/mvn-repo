@@ -1,6 +1,7 @@
 package com.entity;
 
 import java.util.Date;
+import java.util.List;
 
 public class Article {
 
@@ -45,11 +46,27 @@ public class Article {
     //用户
     private User user;
 
-    //文章挂有哪些标签
-    //private List<Tag> tagList;
-
     //文章属于哪些分类
-    //private List<Category> categoryList;
+    private List<Category> categoryList;
+
+    //文章挂有哪些标签
+    private List<Tag> tagList;
+
+    public List<Tag> getTagList() {
+        return tagList;
+    }
+
+    public void setTagList(List<Tag> tagList) {
+        this.tagList = tagList;
+    }
+
+    public List<Category> getCategoryList() {
+        return categoryList;
+    }
+
+    public void setCategoryList(List<Category> categoryList) {
+        this.categoryList = categoryList;
+    }
 
     public Integer getArticleId() {
         return articleId;

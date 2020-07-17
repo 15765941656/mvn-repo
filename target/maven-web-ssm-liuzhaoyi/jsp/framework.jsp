@@ -84,10 +84,10 @@
                                                                href="javascript:;">文章</a>
                     <dl class="layui-nav-child">
                         <dd>
-                            <a href="/admin/article">全部文章</a>
+                            <a href="article">全部文章</a>
                         </dd>
                         <dd>
-                            <a href="/admin/article/insert">写文章</a>
+                            <a href="article/add">写文章</a>
                         </dd>
                         <dd>
                             <a href="/admin/category">全部分类</a>
@@ -118,10 +118,10 @@
                 <li class="layui-nav-item"><a href="javascript:;">公告</a>
                     <dl class="layui-nav-child">
                         <dd>
-                            <a href="/admin/notice">全部公告</a>
+                            <a href="/notice">全部公告</a>
                         </dd>
                         <dd>
-                            <a href="/admin/notice/insert">添加公告</a>
+                            <a href="/notice/add">添加公告</a>
                         </dd>
                     </dl></li>
                 <li class="layui-nav-item"><a href="/admin/comment"> 评论 </a></li>
@@ -129,10 +129,10 @@
                     用户 </a>
                     <dl class="layui-nav-child">
                         <dd>
-                            <a href="/admin/user">全部用户</a>
+                            <<a href="admin/user" >全部用户</a>
                         </dd>
                         <dd>
-                            <a href="/admin/user/insert">添加用户</a>
+                            <a href="admin/useradd" >添加用户 </a>
                         </dd>
                     </dl></li>
                 <li class="layui-nav-item"><a href="javascript:;">设置</a>
@@ -170,6 +170,5 @@
 
 <!-- 留给别的页面去覆盖,让它们可以引入自已的js -->
 <rapid:block name="frame-footer-script"></rapid:block>
-
 </body>
 </html>
